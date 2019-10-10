@@ -1,5 +1,6 @@
-// import React,  from 'react'
-// import ReactDOM from 'react-dom'
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+import ReactDOM from 'react-dom'
 // eslint-disable-next-line react/prop-types
 // const Title = ({ text }) =>
 // <h5 className="text-bold">{text}</h5>
@@ -29,17 +30,17 @@
 //     );
 //   }
 // }
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './compoents/counter'
+// import React from 'react'
+// import ReactDOM from 'react-dom'
+// import App from './components/counter'
 
-const MainScreen = () => <div className='alert'>
-  <h3>計數器</h3>
-  <App />
-</div>
+// const MainScreen = () => <div className='alert'>
+//   <h3>計數器</h3>
+//   <App />
+// </div>
 
-const rootElement = document.getElementById('root')
-ReactDOM.render(<MainScreen />, rootElement)
+// const rootElement = document.getElementById('root')
+// ReactDOM.render(<MainScreen />, rootElement)
 
 // const cartList = [
 //   'test1', 'text2'
@@ -91,3 +92,9 @@ ReactDOM.render(<MainScreen />, rootElement)
 
 // ReactDOM.render(<Card />, document.querySelector('#root'))
 // ReactDOM.render(React.createElement(Index, null), document.querySelector('#root'))
+
+// print a card
+// eslint-disable-next-line no-unused-vars
+import EventCard from './components/card'
+const cardElemtnt = document.getElementById('new-card')
+ReactDOM.render(<EventCard/>, cardElemtnt)

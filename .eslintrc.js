@@ -2,12 +2,11 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    commonjs: true,
+    commonjs: true
   },
   parser: 'babel-eslint',
   extends: [
-    'standard',
-    'plugin:react/recommended',
+    'standard'
   ],
   globals: {
     Atomics: 'readonly',
