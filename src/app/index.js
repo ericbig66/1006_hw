@@ -1,10 +1,11 @@
 import $ from 'jquery'
+import 'dark-mode-switch/dark-mode-switch'
+import 'dark-mode-switch/dark-mode.css'
 import 'slider-pro'
 import 'slider-pro/dist/css/slider-pro.min.css'
 import 'magnific-popup'
 import 'magnific-popup/dist/magnific-popup.css'
-import 'dark-mode-switch/dark-mode-switch'
-import 'dark-mode-switch/dark-mode.css'
+
 (function () {
   'use strict'
 
